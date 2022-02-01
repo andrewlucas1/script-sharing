@@ -1,3 +1,4 @@
+#This method will leave the registry key 'HKEY_CURRENT_USER\Software\Microsoft\Office\Teams\PreventInstallationFromMsi' Which can be a pain
 #Function to generate a timestamp that is added to the log file
 function Get-TimeStamp {
   return "[{0:MM/dd/yy} {0:HH:mm:ss}]" -f (Get-Date)   
